@@ -12,7 +12,7 @@ namespace WeatherApp
 			string city;
 			Console.WriteLine("Lütfen Hava Durumunu Öğrenmek İstediğiniz Şehiri Yazınız:");
 			city=Console.ReadLine();
-			string apiKey = "3dbf3733bf11e32e401637cf3f0161d7";
+			string apiKey = "apikey";
 			
 			string apiUrl = $"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={apiKey}";
 
